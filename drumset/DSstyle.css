@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Righteous&family=Signika+Negative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1588032786045-59cefda005c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=888&q=80) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+p{
+   font-family: sans-serif; 
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+.Button-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 50px;
+}
+.drum{
+    display: flex;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle at 50% 50%, #22b4ff 0%,  #1bb3ff 5%,  #07acff 45%,#007fc9 60%, #006394 90%);
+    border-radius: 10px;
+    border: none;
+    justify-content: end;
+    align-items: end;
+    color: black;
+    font-size:25PX;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.btn-animatiion{
+    box-shadow: -10 -10 10px rgb(251, 0, 0);
+    background: radial-gradient(circle at 50% 50%, #ff5454 0%, #ff5c5c 5%, #fc4d36 45%,#ff1c0c 60%,#ff0000 90%);
+   border: 2PX solid rgba(252, 83, 37, 0.905);
+}
